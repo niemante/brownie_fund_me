@@ -1,3 +1,4 @@
+#  export NODE_OPTIONS=--openssl-legacy-provider
 from brownie import FundMe, MockV3Aggregator, network, config
 from scripts.helpful_scripts import get_account, deploy_mocks, LOCAL_BLOCKCHAIN_ENVIRONMENTS
 
